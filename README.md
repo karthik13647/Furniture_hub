@@ -1,4 +1,4 @@
-Furniture Hub is a comprehensive, user-friendly website developed with HTML and Bootstrap, dedicated to showcasing a wide range of furniture styles and types. From elegant living room sets to ergonomic office furniture, this platform brings together a curated selection to meet diverse interior design needs.
+**Furniture Hub** is a comprehensive, user-friendly website developed with HTML and Bootstrap, dedicated to showcasing a wide range of furniture styles and types. From elegant living room sets to ergonomic office furniture, this platform brings together a curated selection to meet diverse interior design needs.
 
 Leveraging the versatility of Bootstrap, Furniture Hub ensures a fully responsive design that looks and functions flawlessly across all devices, from desktops to smartphones. The layout is crafted with Bootstrap's grid system, providing a visually appealing and well-organized display of furniture categories. Each product section is enhanced with Bootstrap’s components, such as carousels for featured collections, modals for detailed product views, and dynamic cards to highlight each furniture item with clear images, descriptions, and prices.
 
