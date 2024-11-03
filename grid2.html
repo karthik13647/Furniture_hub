@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="/css/" rel="stylesheet" >
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/x-icon" href="assets/furniture_logo.png" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Furniture Hub</title>
+    <style>
+        section{
+            padding: 60px 0;
+        }
+    </style>
+</head>
+<body>
+    <!-- nav bar -->
+     <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm position-relative">
+        <div class="container-xxl">
+            <a href="#intro" class="navbar-brand">
+                <img class="m-2" src="assets/furniture_logo.png" alt="image" height="70px">
+                <span class="fw-bolder text-secondary fst-italic">Furniture Hub</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button> 
+              <!--nav links  -->
+              <div class="collapse navbar-collapse justify-content-end align-center fw-bold" id="main-nav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">About Furniture</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#reviews" class="nav-link">Reviews</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">Get in Touch</a>
+                    </li>
+                    <li class="nav-item d-md-none">
+                        <a href="#pricing" class="nav-link">Pricing</a>
+                    </li>
+                    <!-- <li>
+                        <button id="theme-toggle" class="btn btn-outline-secondary">
+                            <i id="theme-icon" class="bi bi-moon"></i> 
+                        </button>
+                    </li> -->
+                    <li class="nav-item ms-2 d-md-inline d-none">
+                        <a href="#pricing" class="btn btn-secondary fw-bold">Buy now</a>
+                    </li>
+                    
+                  </ul>
+              </div>
+        </div>
+        
+     </nav>
+    <!-- main intro -->
+    <section id="intro">
+        <div class="container lg">
+            <div class="row justify-content-end align-items-center">
+                <div class="col-md-5 text-center text-md-start m-5">
+                    <h1>
+                        <div class="display-2">Welcome to <h1 class="display-2 fst-italic fw-bold text-muted">Furniture Hub</h1></div>
+                        <div class="display-6">All types of Furniture Avaliable</div>
+                    </h1>
+                    <p class="lead my-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam, quae?</p>
+                <a href="#" class="button btn btn-info btn-lg">Explore now</a>
+                
+                <!-- offcanvas / open sidebar -->
+                 <a href="#sidebar" class="d-block mt-3" data-bs-toggle="offcanvas" role="button" aria-controls="sidebar">
+                    View the Something New
+                 </a>
+
+                </div>
+                <div class="col text-center d-none d-md-block m-5">
+                    <img class="img-fluid" src="assets/furniture.webp" alt="image" width="2000px">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- price cards -->
+     <section id="pricing" class="bg-light mt-5">
+        <div class="conntainer-lg">
+           <div class="text-center">
+            <h2 class="display-2">Pricing Plans</h2>
+            <p class="display-6">choose your Item</p>
+           </div>
+           <div class="row my-5 justify-content-center align-items-center">
+            <div class="col-8 col-lg-4 col-xl-3">
+                <div class="card border-0 shadow-sm">
+                    <div class="card-boby text-center p-4">
+                        <h4 class="card-title">Chair </h4>
+                        <p class="lead card-subtitle">Lorem ipsum dolor sit amet.</p>
+                        <img src="assets/chair1.jpeg" alt="image">
+                        <p class="display-5 my-3 text-primary fw-bold">Rs.499 <p class="lead">for Each Only</p></p>
+                        <p class="card-text mx-5 text-muted d none d-lg-block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam!
+                        </p>
+                        <p class="btn btn-outline-primary btn-lg">Order now</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-9 col-lg-4">
+                <div class="card border-primary shadow-sm border-2">
+                    <div class="card-header text-center text-primary fw-bold">BestSeller <i class="bi bi-patch-check-fill"></i></div>
+                    <div class="card-boby text-center py-4">
+                        <h4 class="card-title">Dinning Table</h4>
+                        <p class="lead card-subtitle">Lorem ipsum dolor sit amet.</p>
+                        <img src="assets/dining_table.jpeg" alt="image">
+                        <p class="display-5 my-3 text-primary fw-bold">Rs.7999 <p class="lead">for Whole set</p></p>
+                        <p class="card-text mx-5 text-muted d none d-lg-block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam!
+                        </p>
+                        <p class="btn btn-outline-primary btn-lg">Order now</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-8 col-lg-4 col-xl-3">
+                <div class="card border-0 shadow-sm">
+                    <div class="card-boby text-center py-4">
+                        <h4 class="card-title">Dressing Table</h4>
+                        <p class="lead card-subtitle">Lorem ipsum dolor sit amet.</p>
+                        <img src="assets/dressing_table.jpeg" alt="image">
+                        <p class="display-4 my-3 text-primary fw-bold">Rs.5999 <p class="lead">for Whole set</p></p>
+                        <p class="card-text mx-5 text-muted d none d-lg-block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam!
+                        </p>
+                        <p class="btn btn-outline-primary btn-lg">Order now</p>
+                    </div>
+                </div>
+            </div>
+           </div>
+           
+           <div class="row my-5 justify-content-center align-items-center">
+            <div class="col-8 col-lg-4 col-xl-3">
+                <div class="card border-0 shadow-sm">
+                    <div class="card-boby text-center p-4">
+                        <h4 class="card-title">Table</h4>
+                        <p class="lead card-subtitle">Lorem ipsum dolor sit amet.</p>
+                        <img src="assets/table.jpeg" alt="image" height="210px">
+                        <p class="display-5 my-3 text-primary fw-bold">Rs.699 <p class="lead">for Each Only</p></p>
+                        <p class="card-text mx-5 text-muted d none d-lg-block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam!
+                        </p>
+                        <p class="btn btn-outline-primary btn-lg">Order now</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-8 col-lg-4 col-xl-3">
+                <div class="card border-0 shadow-sm">
+                    <div class="card-boby text-center py-4">
+                        <h4 class="card-title">Sofa Set</h4>
+                        <p class="lead card-subtitle">Lorem ipsum dolor sit amet.</p>
+                        <img src="assets/sofa_set.jpeg" alt="image">
+                        <p class="display-4 my-3 text-primary fw-bold">Rs.5999 <p class="lead">for Whole set</p></p>
+                        <p class="card-text mx-5 text-muted d none d-lg-block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam!
+                        </p>
+                        <p class="btn btn-outline-primary btn-lg">Order now</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-8 col-lg-4 col-xl-3">
+                <div class="card border-0 shadow-sm">
+                    <div class="card-boby text-center py-4">
+                        <h4 class="card-title">Double Cot</h4>
+                        <p class="lead card-subtitle">Lorem ipsum dolor sit amet.</p>
+                        <img src="assets/double_cot.jpeg" alt="image">
+                        <p class="display-4 my-3 text-primary fw-bold">Rs.11999 <p class="lead">for Whole set</p></p>
+                        <p class="card-text mx-5 text-muted d none d-lg-block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam!
+                        </p>
+                        <p class="btn btn-outline-primary btn-lg">Order now</p>
+                    </div>
+                </div>
+            </div>
+           </div>
+
+        </div>
+     </section>
+
+
+     <!-- About furniture -->
+      <section id="about">
+        <div class="container-md">
+            <div class="text-center">
+                <h2 class="display-2">Know about Furniture <i class="bi bi-person-wheelchair"></i></h2>
+                <h2 class="display-6">because knowledge is everything</h2>
+            </div>
+            <div class="row justify-content align-items-center my-5 g-5">
+                <div class="col-6 col-lg-4">
+                    <img src="assets/chair1.jpeg" alt="image" height="400px">
+                </div>
+                <div class="col-lg-6">
+                <!-- accordion -->
+                <div class="accordion" id="chapters">
+                    <div class="accordion-item">
+                        <h1 class="accordion-header" id="heading-1">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#chapter-1" aria-controls="chapter-1" aria-expanded="true">
+                            Product Name : Chair
+                             </button>
+                        </h1>
+                        <div id="chapter-1" class="accordion-collapse collapse show" aria-labelledby="heading-1" data-bs-parent="#chapters"> 
+                        <div class="accordion-body">
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam, aperiam molestiae. Maxime perspiciatis sequi consectetur officia nihil dolorum, corrupti voluptatem, libero quasi neque nobis facilis quis porro ducimus quae soluta?</p>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius magnam voluptatibus natus aliquam provident soluta error tenetur dolores quae dolore.</p>
+
+                        </div> 
+                    </div>
+                 </div>
+
+                 <div class="accordion-item">
+                    <h1 class="accordion-header" id="heading-3">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#chapter-3" aria-controls="chapter-3" aria-expanded="true">
+                        Its Overview
+                         </button>
+                    </h1>
+                    <div id="chapter-3" class="accordion-collapse collapse" aria-labelledby="heading-3" data-bs-parent="#chapters"> 
+                    <div class="accordion-body">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam, aperiam molestiae. Maxime perspiciatis sequi consectetur officia nihil dolorum, corrupti voluptatem, libero quasi neque nobis facilis quis porro ducimus quae soluta?</p>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius magnam voluptatibus natus aliquam provident soluta error tenetur dolores quae dolore.</p>
+
+                    </div> 
+                </div>
+             </div>
+
+             <div class="accordion-item">
+                <h1 class="accordion-header" id="heading-2">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#chapter-2" aria-controls="chapter-2" aria-expanded="true">
+                    Features
+                     </button>
+                </h1>
+                <div id="chapter-2" class="accordion-collapse collapse" aria-labelledby="heading-2" data-bs-parent="#chapters"> 
+                <div class="accordion-body">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam, aperiam molestiae. Maxime perspiciatis sequi consectetur officia nihil dolorum, corrupti voluptatem, libero quasi neque nobis facilis quis porro ducimus quae soluta?</p>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius magnam voluptatibus natus aliquam provident soluta error tenetur dolores quae dolore.</p>
+                </div> 
+            </div>
+         </div>
+         </div>
+        </div>
+
+     </div>
+        </div>
+    </section> 
+    <!-- reviews -->
+     <section id="reviews" class="bg-light">
+        <div class="container-lg ">
+            <div class="text-center">
+                <h2 class="display-2"><i class="bi bi-stars"></i>Reviews Section</h2>
+                <h2 class="display-5">People Opinions</h2>
+            </div>
+            <div class="row justify-content-center my-5">
+                <div class="col-lg-8 ">
+                    <div class="list-group">
+                        <div class="list-group-item py-3">
+                            <i class="bi bi-star-fill"></i>      <i class="bi bi-star-fill"></i>         <i class="bi bi-star-fill"></i>        <i class="bi bi-star-fill"></i>          <i class="bi bi-star-fill"></i>
+                            <h5 class="mb-1">Lorem ipsum dolor sit.</h5>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae, eligendi vel voluptatibus inventore minima odio dignissimos quae similique libero illo?</p>
+                            <small><i class="bi bi-person-check"></i> Review by Abhi</small>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-8 ">
+                    <div class="list-group">
+                        <div class="list-group-item py-3">
+                            <i class="bi bi-star-fill"></i>                            <i class="bi bi-star-fill"></i>                            <i class="bi bi-star-fill"></i>                            <i class="bi bi-star-fill"></i>                            <i class="bi bi-star-fill"></i>
+                            <h5 class="mb-1">Lorem ipsum dolor sit.</h5>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae, eligendi vel voluptatibus inventore minima odio dignissimos quae similique libero illo?</p>
+                            <small><i class="bi bi-person-check"></i> Review by Abhi</small>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-8 ">
+                    <div class="list-group">
+                        <div class="list-group-item py-3">
+                            <i class="bi bi-star-fill"></i>                            <i class="bi bi-star-fill"></i>                            <i class="bi bi-star-fill"></i>                            <i class="bi bi-star-fill"></i>                            <i class="bi bi-star-fill"></i>
+                            <h5 class="mb-1">Lorem ipsum dolor sit.</h5>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae, eligendi vel voluptatibus inventore minima odio dignissimos quae similique libero illo?</p>
+                            <small><i class="bi bi-person-check"></i> Review by Abhi</small>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-8 ">
+                    <div class="list-group">
+                        <div class="list-group-item py-3">
+                            <i class="bi bi-star-fill"></i>                            <i class="bi bi-star-fill"></i>                            <i class="bi bi-star-fill"></i>                            <i class="bi bi-star-fill"></i>                            <i class="bi bi-star-half"></i>
+                            <h5 class="mb-1">Lorem ipsum dolor sit.</h5>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae, eligendi vel voluptatibus inventore minima odio dignissimos quae similique libero illo?</p>
+                            <small><i class="bi bi-person-check"></i> Review by Abhi</small>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-8 ">
+                    <div class="list-group">
+                        <div class="list-group-item py-3">
+                                                        <i class="bi bi-star-fill"></i>                            <i class="bi bi-star-fill"></i>                            <i class="bi bi-star-fill"></i>                            <i class="bi bi-star-fill"></i>           <i class="bi bi-star-half"></i>
+                            <h5 class="mb-1">Lorem ipsum dolor sit.</h5>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae, eligendi vel voluptatibus inventore minima odio dignissimos quae similique libero illo?</p>
+                            <small><i class="bi bi-person-check"></i> Review by Abhi</small>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+     </section>
+
+
+     <!-- contact -->
+      <section id="contact">
+        <div class="container-lg">
+            <div class="text-center">
+                <h2 class="display-2">Contact <i class="bi bi-person-lines-fill"></i> </h2>
+                <h2 class="display-6">Get in Touch</h2>
+            </div>
+
+            <div class="row justify-content-center my-3">
+                <div class="col-lg-6">
+
+                    <form class="py-5">
+                        <label for="name" >Name:</label>
+                        <div class="mb-4 input-group">
+                            <span class="input-group-text">
+                                <i class="bi bi-person-fill"></i>
+                            </span>
+                            <input type="text" id="name" class="form-control" placeholder="eg.,Karthik">
+                        </div>
+                        
+                        <label for="email">Email Address:</label>
+                        <div class="mb-4 input-group">
+                            <span class="input-group-text">
+                                <i class="bi bi-envelope-open-fill"></i>
+                            </span>
+                            <input type="email" id="email" class="form-control" placeholder="eg.,Karthik@domain.com">
+                        </div>
+                        
+
+                        <label for="option">What is your question about?</label>
+                        <div class="mb-4 input-group">
+                            <span class="input-group-text">
+                                <i class="bi bi-chat-square-text-fill"></i>
+                            </span>
+                            <select class="form-select" id="select">   
+                                <option value="review">Reviews</option>
+                                <option value="details">Details</option>
+                                <option value="customer_care">Customer Care</option>
+                                <option value="others">Others</option>
+                            </select>
+                        </div>
+                        
+
+                        <div class="form-floating">
+                            <textarea  id="query" class="form-control my-3" style="height: 120px"></textarea>
+                            <label for="query">Enter your query</label>
+                        </div>
+                        
+                    </form> 
+                </div>
+                <div class="mb-4 text-center">
+                    <button type="submit" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#modal"  btn-lg">Submit</button>
+                </div>
+            </div>
+        </div>
+      </section>
+
+      <footer class="bg-light shadow-sm">
+        <div class="container-lg">
+            <div class="text-center justify-content-center p-5">
+                <i class="bi bi-envelope-fill display-4 p-4">  Gmail</i>
+                <i class="bi bi-twitter-x display-4 p-4">  Twitter</i>
+                <i class="bi bi-linkedin display-4  p-4">  Linkedin</i>
+            </div>
+            <div class="lead text-center fw-bold ">Copyright © 2024, Made with <i class="bi bi-suit-heart-fill"></i> by Karthik
+            </div>
+        </div>
+      </footer>
+
+      <div class="modal fade" id="modal" tabindex="-1" aria-labelledby="modal-title" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <p class="lead fw-bold">Response Submitted</p>
+                        <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close">
+                        </button>
+                    </div>
+                        <div class="modal-body">
+                            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam assumenda delectus facere magni. Sapiente doloribus dolore, aspernatur similique expedita laudantium.</p>
+                        </div>
+                <div class="modal-footer">
+                    <a href="" class="btn btn-primary">Close</a>
+                </div>
+            </div>
+        </div>
+      </div>
+      
+      <!-- sidebar section -->
+        <div class="offcanvas offcanvas-start" tabindex="-1" 
+        id="sidebar" aria-labelledby="sidebar-label"><!-- ekkada start aney dhi aa side nunchi sidebar ravali anedi decide chesthunndi-->
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="sidebar-label">Latest Trending Furniture</h5>
+                    <button class="btn-close" type="button" data-bs-dismiss="offcanvas " aria-label="Close">
+                    </button>
+                </div>
+                <div class="offcanvass-body m-2">
+                    <img src="assets/trend.jpeg" alt="image">
+                    <h1 class="display-5">Hi-Tech Bedroom</h1>
+                    <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium porro 
+                        quibusdam id at atque repellendus sequi ut nostrum soluta incidunt non dicta obcaecati 
+                        asperiores eaque, pariatur cum quod corporis reiciendis?</p>
+
+                        <!--  drop-down -->
+                          <div class="dropdown">
+                            <button class="btn btn-secondary dropdown-toggle" type="button"
+                            id="sample-dropdown" data-bs-toggle="dropdown">
+                        Choose Your Type of Trendiness</button>
+                        <div class="dropdown-menu" aria-labelledby="sample-dropdown">
+                          <ul>
+                            <li><a href="#" class="dropdown-item">Latest Version</a></li>
+                            <li><a href="#" class="dropdown-item">Latest Version</a></li>
+                            <li><a href="#" class="dropdown-item">Latest Version</a></li>
+                          </ul>                          
+                        </div>
+                        </div>
+                </div>
+        </div>
+        <!-- <script src="script_grid2.js"></script> -->
+</body>
+</html>
