@@ -5,3 +5,4 @@ Leveraging the versatility of Bootstrap, Furniture Hub ensures a fully responsiv
 The site also includes Bootstrap’s interactive elements like hover effects, navigation bars, and buttons, enhancing user interaction and ease of use. Whether browsing, comparing options, or viewing details up close, users enjoy a seamless, engaging shopping experience. Furniture Hub is designed to cater to both aesthetic appeal and functionality, making it a one-stop platform for all furniture needs.
 
 
+© 2024 Karthik Batta. All rights reserved.
